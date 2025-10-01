@@ -1,0 +1,186 @@
+
+.border{
+    border-style: solid;
+    border-color: white;
+    padding: 20px;
+}
+
+
+html{
+    display: flex;
+    background: linear-gradient(
+        90deg,
+        yellow,
+        orange,
+        red
+    );
+     display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.start, .Certificate, .Notes, .center{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+section{
+  background-color: black;
+    color: white;
+     height: auto;
+     width: 80vw;
+}
+
+.headline{
+    height: 100%;
+}
+
+
+.rotate{
+    transform: rotate(90deg);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#background{
+    background-color: #ce0202;
+    width: auto;
+    height: 450px;
+    padding: 10px 20px;
+    margin: -5px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-size: 200px;
+}
+
+.resume, .cover-letter, .sc{
+    font-size: 140px;
+    color: white;
+    text-decoration: none;
+    background-color: #d50000;
+    margin-top: 30px;
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 60px;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download{
+    font-size: 50px;
+    border-radius: 300px;
+    height: auto;
+    width: 80%;
+     background-color: orange;
+    color: black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.resume:hover, .cover-letter:hover, .sc:hover{
+    background-color: orange;
+    color: black;
+    transition: backgound-color 0.5s, color 0.5s;
+}
+
+.download:hover{
+    color: white;
+    background-color: #d50000;
+    transition: backgound-color 0.5s, color 0.5s;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.information{
+    font-size: 25px;
+    margin: 00;
+    align-self: flex-start;
+    margin-left: 90px;
+}
+
+h2{
+    font-size: 100px;
+    margin: -5px;
+    font-family: OCR A Std, monospace;
+    color: white;
+}
+
+#School-Certificate{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    height: 900px;
+    width: auto;
+    margin: 30px;
+}
+
+.application-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.EiA{
+    width: auto;
+    height: 600px;
+}
+
+.C4K{
+    width: auto;
+    height: 600px;
+}
+
+.FCC{
+    height: 700px;
+}
+.notes_list{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 40px;
+    font-family: American Typewriter, serif;
+    color: #DBD7D2;
+}
+
+.margin-bottom{
+    margin-bottom: 35px;
+}
+
+#fcc-note{
+    font-style: italic;
+    color: grey;
+    font-size: 30px;
+}
+
+li{
+    color: whitesmoke;
+    list-style: none;
+    text-align: center;
+}
+
+img:hover{
+opacity: 0.8;
+}
